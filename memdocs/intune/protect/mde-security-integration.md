@@ -134,13 +134,13 @@ To confirm the version of the Defender agent, in the Defender portal go to the d
 - Windows 11 Professional/Enterprise (with [KB5023778](https://support.microsoft.com/topic/march-28-2023-kb5023778-os-build-22621-1485-preview-d490bb51-492e-410c-871f-50ad01b0f765))
 - Windows Server 2012 R2 with [Microsoft Defender for Down-Level Devices](/defender-endpoint/configure-server-endpoints#new-functionality-in-the-modern-unified-solution-for-windows-server-2012-r2-and-2016-preview)
 - Windows Server 2016 with [Microsoft Defender for Down-Level Devices](/defender-endpoint/configure-server-endpoints#new-functionality-in-the-modern-unified-solution-for-windows-server-2012-r2-and-2016-preview)
-- Windows Server 2019 (with [KB5025229](https://support.microsoft.com/topic/april-11-2023-kb5025229-os-build-17763-4252-e8ead788-2cd3-4c9b-8c77-d677e2d8744f))
+- Windows Server 2019, including Server Core (with [KB5025229](https://support.microsoft.com/topic/april-11-2023-kb5025229-os-build-17763-4252-e8ead788-2cd3-4c9b-8c77-d677e2d8744f) and [Server Core App Compatibility Feature on Demand](https://learn.microsoft.com/en-us/windows-server/get-started/server-core-app-compatibility-feature-on-demand))
 - Windows Server 2022, including Server Core (with [KB5025230](https://support.microsoft.com/topic/april-11-2023-security-update-kb5025230-5048ddfb-7bf3-4e6c-b29a-7b44b789d282))
 - Domain controllers (preview). See important information in [Use of security settings management on domain controllers](#use-of-security-settings-management-on-domain-controllers) (in this article).
 
 Security settings management doesn't work on and isn't supported with the following devices:
 
-- Windows Server Core 2019 and earlier
+- Windows Server Core 2016 and earlier
 - Non-persistent desktops, like Virtual Desktop Infrastructure (VDI) clients
 - Azure Virtual Desktop (AVD and formerly Windows Virtual Desktop, WVD)
 - 32-bit versions of Windows
